@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+}
+
+/* FONTS  */
+/* incosolata */
+@font-face {
+  font-family: 'inconsolata';
+  src: url('/fonts/Inconsolata-Bold.ttf');
+  font-weight: bold;
+}
+/* space mono */
+@font-face {
+  font-family: 'space mono';
+  src: url('/fonts/SpaceMono-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'space mono';
+  src: url('/fonts/SpaceMono-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'space mono', sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.btn {
+  padding: 24px 43px;
+  background-color: rgba(51, 51, 51, 1);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.header {
+  font-family: 'inconsolata';
+  margin: 1em 0 200px;
+}
+.header-title {
+  font-size: 24px;
+}
+
+.nf {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1em;
+  margin-bottom: 200px;
+}
+
+.nf-img {
+  width: 540px;
+}
+
+.nf-title {
+  font-size: 64px;
+  color: rgba(51, 51, 51, 1);
+  margin-bottom: 36px;
+}
+
+.nf-message {
+  font-size: 24px;
+  width: 381px;
+  letter-spacing: -0.4px;
+  margin-bottom: 64px;
+}
+
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    padding: 0 10px;
+  }
+  .header {
+    margin-bottom: 64px;
+  }
+  .nf {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+  .nf-title {
+    font-size: 48px;
+  }
+  .nf-img {
+    width: 286px;
+  }
+  .nf-message {
+    width: 328px;
+    font-size: 18px;
+  }
+}
