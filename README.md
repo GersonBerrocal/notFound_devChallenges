@@ -2,4 +2,4 @@
 
 challenge link: https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY
 
-![img](https://imgur.com/Khcc5wU)
+![img](https://i.imgur.com/Khcc5wU.png)
